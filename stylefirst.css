@@ -1,0 +1,157 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+h1 {
+  font-family: tahoma;
+  font-style: Bold;
+  font-weight: normal;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  float: left;
+}
+
+.sorting {
+  position: absolute;
+  \padding: 22px;
+  margin: 23px;
+  float: left;
+  content: url(https://cdn.glitch.me/a216380d-370c-4935-a5dc-0fb20dc90225%2Fsorting.png?v=1633638252062);
+  width: 20%;
+  top: 25%;
+}
+
+/* ----itempage---- */
+.items {
+  width: 95%;
+  padding-left: 15%;
+  padding-top: 3%;
+}
+.top {
+  width: 100%;
+}
+.webLink {
+  position: absolute;
+  padding-left: 3.5%;
+  font-size: 22px;
+  padding-top: 52%;
+}
+
+.bottom {
+  width: 100%;
+  padding-top: 8%;
+}
+
+/* ----checkoutpage---- */
+.cart {
+  width: 100%;
+}
+.cartHeader {
+  font-size: 18px;
+  padding-left: 42%;
+}
+
+.feature {
+  width: 90%;
+  padding-left: 15%;
+}
+.ship {
+  width: 100%;
+  padding-top: 8%;
+}
+
+/* -----index----- */
+.home {
+  width: 100%;
+}
+
+.container {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  top: 57%;
+  left: 69%;
+  transform: translate(-50%, -50%);
+}
+.searchbar{
+  position:absolute;
+  top:55%;
+  left:45%;
+  
+}
+
+.shopLink {
+  content: url(https://cdn.glitch.me/a216380d-370c-4935-a5dc-0fb20dc90225%2F424995-200.png?v=1634250957713);
+
+    width:10%;
+  
+}
+
+.top {
+  width: 100%;
+}
+
+.sign {
+  width: 67%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 33%;
+}
+
+.itemLink {
+  padding-left: 28%;
+}
+
+.botmSign {
+  width: 100%;
+  paddingtop: 10%;
+}
+
+/*---shopall---*/
+
+.menu {
+  position: absolute;
+  \padding: 22px;
+  margin: 23px;
+  float: left;
+  content: url(https://cdn.glitch.me/a216380d-370c-4935-a5dc-0fb20dc90225%2Fsorting.png?v=1633638252062);
+  width: 20%;
+  top: 25%;
+}
+
+.wheels {
+  width: 95%;
+  padding-left: 18%;
+  padding-top: 3%;
+}
+.signup {
+  position: absolute;
+  content: url(https://cdn.glitch.me/a216380d-370c-4935-a5dc-0fb20dc90225%2FAsset%205f1.png?v=1633675662205);
+  left: 45%;
+  top: 105.5%;
+  width: 10%;
+  height: auto;
+}
+.cta{
+  content:url(https://cdn.glitch.me/a216380d-370c-4935-a5dc-0fb20dc90225%2Fsignup.png?v=1633681093762);
+  width:100%;
+  height:auto;
+}
