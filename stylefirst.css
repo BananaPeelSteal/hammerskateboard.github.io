@@ -92,9 +92,12 @@ video {
   transform: translate(-50%, -50%);
 }
 .searchbar{
-  position:absolute;
-  top:55%;
-  left:45%;
+ position: absolute;
+  width: 30%;
+  height: auto;
+  top: 57%;
+  left: 69%;
+  transform: translate(-50%, -50%);
   
 }
 
